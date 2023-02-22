@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className="">
-      <h1>Home</h1>
-      <Link href="/page1">Dashboard</Link>
+    <main>
+      <h1>Dashboard</h1>
+      <Link href="/">Home</Link>
     </main>
   )
 }
