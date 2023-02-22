@@ -1,0 +1,16 @@
+
+.nav {
+    display: flex;
+    background-color: red;
+    position: relative;
+    height: 120px;
+    width: 100vw;
+}
+.logo {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 55px;
+}
