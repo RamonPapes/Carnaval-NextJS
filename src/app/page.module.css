@@ -7,3 +7,11 @@
   min-height: 100vh;
 }
 
+.img{
+  min-height: 100vh;
+  background-image: url('../../public/fundo.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+

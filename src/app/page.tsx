@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import Nav from './components/Navbar/navbar'
+import styles from './page.module.css';
 
 
 export default function Home() {
   return (
-    <main className="">
+    <main className={styles.img}>
       <h1>Home</h1>
       <Link href="/dia1">dia1</Link>
       <Link href="/dia2">dia2</Link>
