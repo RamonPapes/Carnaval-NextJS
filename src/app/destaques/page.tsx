@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Page() {
+export default function Destaques() {
   return (
     <main>
       <h1>Destaques</h1>

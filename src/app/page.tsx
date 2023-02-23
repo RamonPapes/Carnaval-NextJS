@@ -1,20 +1,40 @@
-import Link from 'next/link'
-import Nav from './components/Navbar/navbar'
 import styles from './page.module.css';
+import { intro } from './data/strings';
+import Image from 'next/image'
 
 
 export default function Home() {
   return (
-    <main className={styles.img}>
-      <h1>Home</h1>
-      <Link href="/dia1">dia1</Link>
-      <Link href="/dia2">dia2</Link>
-      <Link href="/dia3">dia3</Link>
-      <Link href="/dia4">dia4</Link>
-      <Link href="/dia5">dia5</Link>
-      <Link href="/dia6">dia6</Link>
-      <Link href="/destaques">Destaques</Link>
-    </main>
+    <div className={styles.main}>
+      <div className={styles.bloc}>
+
+        <div className={styles.text}>
+          <p>{intro}</p>
+        </div>
+
+        <div className={styles.images}>
+          <div className={styles.image1}>
+            <Image 
+              src="/images/circuito1.png"
+              alt="image 1"
+              width={500}
+              height={300}
+            />
+          </div>
+          <div className={styles.image2}>
+            <Image 
+              src="/images/circuito2.png"
+              alt="image 2"
+              width={500}
+              height={300}
+            />
+          </div>
+        </div>
+
+
+      </div>
+      
+    </div>
   )
 }
 

@@ -1,17 +1,39 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
-
-.img{
-  min-height: 100vh;
+.main{
+  height: 87.7vh;
+  width: 100vw;
   background-image: url('../../public/fundo.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
+.bloc{
+  display: flex;
+  gap: 20px;
+  width: 100vw;
+  padding-top: 250px;
+  padding-left: 100px;
+}
+
+.text{
+  color: white;
+  text-align: left;
+  width: 800px;
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+.image1{
+  bottom: 90px;
+  position: relative;
+
+}
+.image2{
+  bottom: 90px;
+  position: relative;
+  margin-left: 380px;
+}

@@ -14,3 +14,29 @@
   justify-content: center;
   top: 55px;
 }
+.buttons {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  height: 120px;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  font-family: fantasy;
+  top: 30px;
+  text-decoration: none;
+  
+  
+}
+.buttons :hover {
+  rotate: 5deg;
+  transition-delay: initial;
+  cursor: pointer;
+}
+.button {
+  text-decoration: none;
+  color: white;
+}
