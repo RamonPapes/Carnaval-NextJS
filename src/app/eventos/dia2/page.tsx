@@ -19,9 +19,9 @@ export default function Dia2() {
             height={300}
           />
           <p className={styles.text}>A aparição de Anitta em cima dos trios e entre os foliões, disfarçada de homem, para curtir o Carnaval também agitou os fãs e a internet.</p>
-          <p className={styles.text}>A cantora também se posicionou quando um isopor de um ambulante quebrou durante a passagem do seu trio. Ela tranquilizou o ambulante e disse que iria pagar pelos prejuízos."O que foi que aconteceu aí gente? Quem fez isso? Vou resolver, fica tranquila. Calma. Eu pago o que foi perdido", disse a cantora.</p>
+          <p className={styles.text}>A cantora também se posicionou quando um isopor de um ambulante quebrou durante a passagem do seu trio. Ela tranquilizou o ambulante e disse que iria pagar pelos prejuízos.&quot O que foi que aconteceu aí gente? Quem fez isso? Vou resolver, fica tranquila. Calma. Eu pago o que foi perdido&quot, disse a cantora.</p>
           <p className={styles.text}>Outro cantor que também interrompeu parte de seu show durante a passagem do trio para interferir em algo que acontecia no meio da multidão foi Bell Marques. No final do percurso, no bairro da Ondina, percebendo que um de seus funcionários estava sendo detido, o cantor pediu para que eles não maltratassem o homem e ainda disse que iria ligar para o coronel que comanda a Polícia Militar para resolver a situação.
-            “Calma, deixa eu falar uma coisa. Ele trabalha para mim, é meu funcionário, um dos melhores que tenho. Não faça isso, não. Vou ligar para o coronel agora, não faça isso, não precisa", disse o cantor.
+            “Calma, deixa eu falar uma coisa. Ele trabalha para mim, é meu funcionário, um dos melhores que tenho. Não faça isso, não. Vou ligar para o coronel agora, não faça isso, não precisa&quot, disse o cantor.
           </p>
           <ul className={styles.section}>
             <li className={styles.sectionText}>Destaques</li>
