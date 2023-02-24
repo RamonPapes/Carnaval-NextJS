@@ -1,13 +1,8 @@
-import { Inter } from '@next/font/google'
-import Link from 'next/link'
+import Dia from '@/app/components/Dia/dia'
 
-const inter = Inter({ subsets: ['latin'] })
 
-export default function Page() {
+export default function Dia4() {
   return (
-    <main>
-      <h1>Dashboard</h1>
-      <Link href="/">Home</Link>
-    </main>
+    <Dia/>
   )
 }

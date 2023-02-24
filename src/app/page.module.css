@@ -1,7 +1,5 @@
 .main{
-  height: 87.7vh;
-  width: 100vw;
-  background-image: url('../../public/fundo.svg');
+  height: 100 dvh;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

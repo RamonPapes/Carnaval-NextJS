@@ -1,0 +1,28 @@
+.main{
+  height: 100 dvh;
+}
+.days{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+  background-color: blueviolet;
+  font-family: fantasy;
+  border-radius: 2rem;
+}
+
+.days :hover {
+  rotate: 5deg;
+  transition-delay: initial;
+  cursor: pointer;
+}
+.day {
+  text-decoration: none;
+  color: white;
+}

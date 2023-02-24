@@ -22,7 +22,7 @@ export default function Nav() {
       <div className={styles.buttons}>
         <Link className={styles.button} href={"/"}>Home</Link>
         <Link className={styles.button} href={"/destaques"}>Destaques</Link>
-        <Link className={styles.button} href={"/eventos"}>Eventos</Link>
+        <Link className={styles.button} href={"/eventos/dia1"}>Eventos</Link>
         <Link className={styles.button} href={"/outros"}>Outros</Link>
       </div>
       
