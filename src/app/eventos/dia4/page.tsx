@@ -1,8 +1,11 @@
 import Dia from '@/app/components/Dia/dia'
-
+import styles from '../eventos.module.css'
+import Image from 'next/image'
 
 export default function Dia4() {
   return (
-    <Dia/>
+    <div className={styles.main}>
+      <Dia/>
+    </div>
   )
 }
