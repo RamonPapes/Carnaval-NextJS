@@ -1,5 +1,3 @@
-import { Inter } from '@next/font/google'
-import Link from 'next/link'
 import styles from '../eventos/eventos.module.css';
 import Image from 'next/image'
 

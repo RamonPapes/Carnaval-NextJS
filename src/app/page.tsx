@@ -35,5 +35,3 @@ export default function Home() {
     </div>
   )
 }
-
-//RAMON ESTEVE AQUI 
