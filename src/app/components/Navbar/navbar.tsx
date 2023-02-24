@@ -11,19 +11,19 @@ export default function Nav() {
       fill
       />
       <div className={styles.logo}>
-        <Image 
-          src="/carnavaLogo.png"
-          alt="carnaval logo"
-          width={300}
-          height={210}
-        />
+        <Link href={"/"}>
+          <Image 
+            src="/carnavaLogo.png"
+            alt="carnaval logo"
+            width={300}
+            height={210}
+            />
+          </Link>
       </div>
       
       <div className={styles.buttons}>
-        <Link className={styles.button} href={"/"}>Home</Link>
         <Link className={styles.button} href={"/destaques"}>Destaques</Link>
         <Link className={styles.button} href={"/eventos/dia1"}>Eventos</Link>
-        <Link className={styles.button} href={"/outros"}>Outros</Link>
       </div>
       
     </div>
